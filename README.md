@@ -1,4 +1,3 @@
-
 # School API
 
 By the end of this assignment you will have a fully serviceable CRUD API with user authentication capabilities that will allow School staff to easily manage students and schollastic equipment.
@@ -7,14 +6,14 @@ By the end of this assignment you will have a fully serviceable CRUD API with us
 
 In this assignment we will create a Student Django Model with the following fields
 
-| field            | required |type |example data                    |
-| ----------------- | -----|-------|------------- |
-| name | True |string | John W. Watson |
-| student_email | True | string(email) | johnnyBoy@school.com |
-| personal_email | False | string(email) | johnnyBoy@gmail.com |
-| locker_number | True |int |137 |
-| locker_combination | True |string |37-68-98 |
-| good_student | True |boolean | True |
+| field              | required | type          | example data         |
+| ------------------ | -------- | ------------- | -------------------- |
+| name               | True     | string        | John W. Watson       |
+| student_email      | True     | string(email) | johnnyBoy@school.com |
+| personal_email     | False    | string(email) | johnnyBoy@gmail.com  |
+| locker_number      | True     | int           | 137                  |
+| locker_combination | True     | string        | 37-68-98             |
+| good_student       | True     | boolean       | True                 |
 
 ## Django Set Up
 
